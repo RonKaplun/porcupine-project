@@ -1,0 +1,132 @@
+body {
+  font-family: 'Lucida Sans';
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  scroll-behavior: smooth;
+}
+
+.container 
+{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.button 
+{
+ display: inline-block;
+ background-color: darkgray;
+ color : saddlebrown;
+ padding: 15px 25px;
+
+}
+.button:hover
+{
+  background-color: azure;
+  
+}
+
+header
+{
+  background-color: bisque;
+  padding: 0 25px;
+top: 0;
+}
+
+.header-container
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero
+{
+padding: 85px 0;
+}
+.hero-container
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero p
+{
+color: brown;
+}
+.hero img
+{
+  flex: 1;
+  max-width: 50%;
+}
+
+.hero img img 
+{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.cards
+{
+  padding: 60px 0;
+  background-color: lightgoldenrodyellow;
+}
+.cards-container
+{
+  text-align: center;
+}
+
+.cards p
+{
+  color: black;
+  margin-bottom:  20px
+}
+
+.cards-grid
+{
+  display: grid;
+  grid-template-columns:auto;
+  gap: 40 px;
+  margin-top: 40 px;
+}
+
+.card 
+{
+  background-color: beige;
+  border-radius: 10 px;
+  padding: 25 px;
+  text-align: center;
+}
+
+.card image
+{
+max-width: 100%;
+height: auto;
+border-radius: 10px;
+margin-bottom: 20px;
+object-fit: cover;
+}
+
+.card p
+{
+  color: black;
+  margin-bottom: 20px;
+}
+
+footer 
+{
+  background-size: cover;
+  color: brown;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.footer-container
+{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
