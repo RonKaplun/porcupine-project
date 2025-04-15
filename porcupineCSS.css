@@ -45,6 +45,11 @@ top: 0;
 {
 padding: 85px 0;
 }
+.hero1
+{
+  flex: 1;
+  padding-left: 45px;
+}
 .hero-container
 {
   display: flex;
@@ -56,13 +61,13 @@ padding: 85px 0;
 {
 color: brown;
 }
-.hero img
+.hero-img
 {
   flex: 1;
   max-width: 50%;
 }
 
-.hero img img 
+.hero-img img 
 {
   width: 100%;
   height: auto;
@@ -118,7 +123,10 @@ object-fit: cover;
 
 footer 
 {
+  background-image: url("להוסיף קישור לתמונת רקע לפוטר");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: brown;
   padding: 25px 0;
   text-align: center;
