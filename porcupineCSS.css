@@ -93,13 +93,15 @@ color: brown;
 .cards-grid
 {
   display: grid;
-  grid-template-columns:auto;
+  grid-template-areas:auto;
   gap: 40 px;
   margin-top: 40 px;
 }
 
 .card 
 {
+  height: 200px;
+  width: 320px;
   background-color: beige;
   border-radius: 10 px;
   padding: 25 px;
