@@ -97,6 +97,7 @@ color: brown;
   grid-template-rows: 200px 200px 200px;
   justify-content: space-around;
   align-content: space-around;
+  row-gap: 50px;
   margin-top: 40 px;
 }
 
