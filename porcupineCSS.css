@@ -34,14 +34,14 @@ header
 
 .nav-links a 
 {
-  color: burlywood;
+  color: brown;
   text-decoration: none;
   padding: 1% 2%;
   transition: background 0.3s;
 }
 
 .nav-links a:hover {
-  background-color: lightsteelblue;
+  background-color: sandybrown;
   border-radius: 5px;
 }
 
