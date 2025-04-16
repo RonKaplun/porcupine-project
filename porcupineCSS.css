@@ -152,3 +152,21 @@ footer
   justify-content: center;
   flex-wrap: wrap;
 }
+.footer-links li 
+{
+  margin: 0 2%;
+}
+
+.footer-links a 
+{
+  color: brown;
+  text-decoration: none;
+  padding: 1% 2%;
+  transition: background 0.3s;
+}
+
+.footer-links a:hover
+ {
+  background-color: lightgoldenrodyellow;
+  border-radius: 5px;
+}
