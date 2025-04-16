@@ -63,7 +63,7 @@ padding: 85px 0;
 
 .hero p
 {
-color: brown;
+color: rgb(100, 16, 16);
 }
 .hero-img
 {
@@ -159,7 +159,7 @@ footer
 
 .footer-links a 
 {
-  color: brown;
+  color: rgb(100, 16, 16);
   text-decoration: none;
   padding: 1% 2%;
   transition: background 0.3s;
