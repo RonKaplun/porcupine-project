@@ -133,18 +133,22 @@ object-fit: cover;
 
 footer 
 {
-  background-image: url("להוסיף קישור לתמונת רקע לפוטר");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: brown;
-  padding: 25px 0;
+  background-color: burlywood;
+  padding: 2% 0;
+  color: lightgoldenrodyellow;
+}
+
+.footer-nav 
+{
   text-align: center;
 }
 
-.footer-container
+.footer-links 
 {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 25px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
