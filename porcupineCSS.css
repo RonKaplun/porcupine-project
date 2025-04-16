@@ -5,40 +5,44 @@ body {
   direction: rtl;
   scroll-behavior: smooth;
 }
-
-.container 
+header 
 {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 25px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: dimgray;
 }
 
-.button 
+.navbar 
 {
- display: inline-block;
- background-color: darkgray;
- color : saddlebrown;
- padding: 15px 25px;
-
-}
-.button:hover
-{
-  background-color: azure;
-  
+  padding: 2% 0;
 }
 
-header
-{
-  background-color: bisque;
-  padding: 0 15px;
-top: 0;
-}
-
-.header-container
-{
+.nav-links
+ {
+  list-style: none;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li 
+{
+  margin: 0 2%;
+}
+
+.nav-links a 
+{
+  color: burlywood;
+  text-decoration: none;
+  padding: 1% 2%;
+  transition: background 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: lightsteelblue;
+  border-radius: 5px;
 }
 
 .hero
