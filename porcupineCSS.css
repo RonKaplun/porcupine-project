@@ -30,7 +30,7 @@ body {
 header
 {
   background-color: bisque;
-  padding: 0 25px;
+  padding: 0 15px;
 top: 0;
 }
 
@@ -106,7 +106,7 @@ color: brown;
   text-align: center;
 }
 
-.card image
+.card img
 {
 width: 100%;
 max-height: 180px;
