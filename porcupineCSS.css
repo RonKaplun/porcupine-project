@@ -16,6 +16,7 @@ header
 .navbar 
 {
   padding: 2% 0;
+  justify-content: space-around;
 }
 
 .nav-links
