@@ -64,6 +64,8 @@ padding: 85px 0;
 .hero p
 {
 color: rgb(100, 16, 16);
+align-content: center;
+
 }
 .hero-img
 {
