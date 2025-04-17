@@ -47,12 +47,12 @@ header
 
 .hero
 {
-padding: 85px 0;
+padding: 85px 50px;
 }
 .hero1
 {
   flex: 1;
-  padding-left: 45px;
+  gap: 16px;
 }
 .hero-container
 {
