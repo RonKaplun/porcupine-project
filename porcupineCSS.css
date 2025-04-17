@@ -52,7 +52,7 @@ padding: 85px 50px;
 .hero1
 {
   flex: 1;
-  gap: 16px;
+  
   align-items: center;
 }
 .hero-container
@@ -66,6 +66,7 @@ padding: 85px 50px;
 {
 color: rgb(100, 16, 16);
 align-content: center;
+padding: 16px;
 
 }
 .hero-img
