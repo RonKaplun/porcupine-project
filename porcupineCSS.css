@@ -53,6 +53,7 @@ padding: 85px 50px;
 {
   flex: 1;
   gap: 16px;
+  align-items: center;
 }
 .hero-container
 {
