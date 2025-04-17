@@ -48,7 +48,8 @@ header {
 
 .hero-container {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap; /* מאפשר גמישות והסתגלות למסכים קטנים יותר */
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -70,7 +71,7 @@ header {
 }
 
 .hero1 h2 {
-  align-content: center;
+  text-align: center;
 }
 
 .cards {
@@ -80,11 +81,10 @@ header {
 
 .cards-grid {
   display: grid;
-  grid-template-columns: 320px 320px 320px;
-  grid-template-rows: 200px 200px 200px;
-  justify-content: space-around;
-  align-content: space-around;
-  row-gap: 100px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* עיצוב רספונסיבי אוטומטי */
+  grid-gap: 30px; /* מרווח בין הקטגוריות */
+  justify-content: center;
+  align-content: center;
   margin-top: 40px;
 }
 
