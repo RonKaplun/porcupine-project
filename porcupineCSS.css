@@ -83,7 +83,10 @@ padding: 16px;
   object-fit: cover;
 }
 
-
+.hero1 h2
+{
+  align-content: center;
+}
 .cards
 {
   padding: 60px 0;
